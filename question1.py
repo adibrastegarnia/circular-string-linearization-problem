@@ -27,11 +27,11 @@ def main():
           break
     for i in range(len(Str)):
         if(Str[-i:]+Str[:-i] == smallest):
-            if(n - i - 1 == len(Str) -1):
-              result = 0, n-i-1
+            if(i == 0):
+              result = 0, n-1
               print ','.join(str(i) for i in result)
             else:
-                result = n-i-1, n-1
+                result = n-i-1, n-i
                 print ','.join(str(i) for i in result)
     #print(smallest) 
 main()

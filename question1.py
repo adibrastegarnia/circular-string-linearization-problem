@@ -31,7 +31,7 @@ def main():
               result = 0, n-i-1
               print ','.join(str(i) for i in result)
             else:
-                result = n-i-1, n-i
+                result = n-i-1, n-1
                 print ','.join(str(i) for i in result)
     #print(smallest) 
 main()

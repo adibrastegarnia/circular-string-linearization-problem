@@ -23,7 +23,11 @@ Given a circular DNA sequence S, the program should calculate the positions to c
 that the resulting string is lexically smallest. For example, in the first sample input if you
 cut between positions 3 and 4, you will get the lexically smallest string cgctt. In the second
 sample input, you need to cut between first and last position to get it.
+
 Sample Input: gcttc
+
 Sample Output: 3,4
+
 Sample Input: cgctt
+
 Sample Output: 0,4
